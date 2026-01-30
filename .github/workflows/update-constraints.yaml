@@ -1,0 +1,255 @@
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# SPDX-FileNotice: Part of the FreeCAD project.
+
+#
+#   Update constraints files inside Data/Python/Constraints on a per Python
+#   version basis when the Data/Python/Allowed-Packages file is changed.
+#
+
+#
+#   𝗡𝗼𝘁𝗲
+#   Current the CI will fail if any package is not
+#   available for a particular version of Python.
+#
+#   Eventually this system will need to be modified
+#   such that we have one Allowed-Packages file per
+#   Python version.
+#
+
+################################################################################
+
+name : Update Constraints
+
+################################################################################
+
+on:
+
+    pull_request_target:
+        types : [ opened , synchronize , reopened ]
+        paths:
+            -   'Data/Python/Allowed-Packages.txt'
+            -   'Data/Python/Constraints/*.txt'
+
+    workflow_dispatch:
+
+################################################################################
+
+permissions:
+    pull-requests : write
+    contents : write
+
+################################################################################
+
+env:
+
+    #
+    #   Explicitly allow-list packages that can be compiled
+    #   from source and do not require a binary wheel.
+    #
+    #   These packages will be allowed to compile from source.
+    #
+    #   Native extension compilation is a code-execution vector.
+    #
+    #   Compilers, linkers, and build scripts are invoked;
+    #   a hostile setup.py/backend can run shell commands freely.
+    #
+    #   Only add packages to this list if absolutely necessary.
+    #
+
+    # Behavior on user systems depends on the system
+    ALLOW_SDIST_NATIVE : 'scikit-sparse'
+
+    # Comma-separated list
+    ALLOW_SDIST_PURE : 'hausdorff,pydot3k,tinynumpy'
+
+    #
+    #   Excluded Packages:
+    #
+    #   1.  When this CI script was written, the "ocp" package
+    #       had an error in their wheel's metadata that prevented
+    #       the constraints.txt generation from working properly.
+    #
+    #       Its wheel metadata appears to use a marker that compares
+    #       a "version" field to x86_64, which makes pip's marker
+    #       evaluator try to parse x86_64 as a version.
+    #
+    #       For expediency, just exclude it from consideration.
+    #
+
+    # Comma-separated list
+    EXCLUDE_PACKAGES : 'ocp'
+
+################################################################################
+
+jobs:
+
+    Validate:
+
+        runs-on : ubuntu-latest
+        name : Validate
+
+        steps:
+
+                # https://github.com/marketplace/actions/checkout
+
+            -   name : Checkout Pull Request
+                uses : actions/checkout@v6
+                with :
+
+                    repository : ${{ github.event.pull_request.head.repo.full_name }}
+                    ref: ${{ github.event.pull_request.head.ref }}
+
+                    fetch-depth : 0
+
+                    submodules : false
+                    lfs : false
+
+                ################################################################
+
+            -   name : Validate Allowed-Packages
+
+                shell : bash
+                run : '.github/workflows/Update-Constraints/Validate-Allowed-Packages.sh'
+
+    ############################################################################
+
+    Build:
+
+        runs-on : ubuntu-latest
+        needs : Validate
+        name : Build
+
+        strategy:
+
+            fail-fast: false
+
+            matrix:
+
+                #
+                #   The Addon Manager currently supports the following
+                #   versions of Python - provide a constraints each.
+                #
+
+                py : [ '3.11' , '3.12' , '3.13' , '3.14' ]
+
+        steps:
+
+            -   name : Exclude Wheel-less Packages
+
+                if : ${{ matrix.py == '3.13' || matrix.py == '3.14' }}
+                run : echo "EXCLUDE_PACKAGES=${EXCLUDE_PACKAGES},openexr,pyoptools" >> "$GITHUB_ENV"
+
+                ################################################################
+
+                # https://github.com/marketplace/actions/checkout
+
+            -   name : Checkout Pull Request
+                uses : actions/checkout@v6
+                with :
+
+                    repository : ${{ github.event.pull_request.head.repo.full_name }}
+                    ref : ${{ github.event.pull_request.head.ref }}
+
+                    fetch-depth : 0
+
+                    submodules : false
+                    lfs : false
+
+                ################################################################
+
+                # https://github.com/marketplace/actions/setup-python
+
+            -   name : Setup Python ${{ matrix.py }}
+                uses : actions/setup-python@v6
+                with :
+
+                    python-version : ${{ matrix.py }}
+
+                ################################################################
+
+            -   name : Build & Freeze VEnv
+
+                shell : bash
+                run : '.github/workflows/Update-Constraints/Build-And-Freeze-VEnv.sh'
+
+                ################################################################
+
+                # https://github.com/marketplace/actions/upload-a-build-artifact
+
+            -   name : Upload Artifacts
+                uses : actions/upload-artifact@v6
+                with :
+
+                    # constraints-py123.txt
+                    name : ${{ env.ARTIFACT_NAME }}
+
+                    # Data/Python/Constraints/constraints-py123.txt
+                    path : ${{ env.ARTIFACT_PATH }}
+
+                    if-no-files-found : error
+                    retention-days : 7
+
+    ############################################################################
+
+    Commit:
+
+        runs-on : ubuntu-latest
+        needs : Build
+        name : Commit
+
+        steps:
+
+                # https://github.com/marketplace/actions/checkout
+
+            -   name : Checkout Pull Request
+                uses : actions/checkout@v6
+                with :
+
+                    repository : ${{ github.event.pull_request.head.repo.full_name }}
+                    ref : ${{ github.event.pull_request.head.ref }}
+
+                    fetch-depth : 0
+
+                    submodules : false
+                    lfs : false
+
+                ################################################################
+
+                # https://github.com/marketplace/actions/download-a-build-artifact
+
+            -   name : Download Artifacts
+                uses : actions/download-artifact@v6
+                with :
+
+                    merge-multiple : true
+                    pattern : 'constraints-py*.txt'
+                    path : 'Data/Python/Constraints'
+
+                ################################################################
+
+            -   name : Commit Constraints
+
+                shell : bash
+                run : '.github/workflows/Update-Constraints/Commit-Constraints.sh'
+
+                env:
+                    BOT_PUSH_TOKEN : ${{ secrets.BOT_PUSH_TOKEN }}
+                    PR_REPO : ${{ github.event.pull_request.head.repo.full_name }}
+                    PR_REF :  ${{ github.event.pull_request.head.ref }}
+
+                ################################################################
+
+                # https://github.com/marketplace/actions/github-script
+
+            -   name : Comment Pull Request
+                uses : actions/github-script@8
+                if : ${{ success() }}
+
+                with:
+                    script: |
+                        github.rest.issues.createComment({
+                            owner: context.payload.repository.owner.login,
+                            repo: context.payload.repository.name,
+                            issue_number: context.payload.pull_request.number,
+                            body: "🤖 Constraints Bot: regenerated the constraints files and added a commit with the changes"
+                        })
