@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# SPDX-FileNotice: Part of the FreeCAD project.
+
+
 name: Update constraints-pyXY.txt on PRs
 
 # When the ALLOWED_PYTHON_PACKAGES.txt file changes, update all of our constraints files on a per-Python-version
