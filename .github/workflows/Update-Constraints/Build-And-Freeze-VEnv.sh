@@ -53,12 +53,12 @@ pip install \
     --index-url https://pypi.org/simple \
     -r "$PRUNED"
 
-py_tag=$(python -c 'import sys; print(f"py{sys.version_info.major}{sys.version_info.minor}")')
+py_tag=$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
 
 mkdir -p constraints
 
-out_basename="constraints-${py_tag}.txt"
-out_path="Data/Python/Constraints/${out_basename}"
+out_basename="constraints.txt"
+out_path="Data/Python/${py_tag}/${out_basename}"
 
 pip freeze --exclude-editable > "$out_path"
 

@@ -27,8 +27,8 @@ on:
     pull_request_target:
         types : [ opened , synchronize , reopened ]
         paths:
-            -   'Data/Python/Allowed-Packages.txt'
-            -   'Data/Python/Constraints/*.txt'
+            -   'Data/Python/*/Allowed-Packages'
+            -   'Data/Python/*/constraints.txt'
 
     workflow_dispatch:
 
@@ -180,10 +180,10 @@ jobs:
                 uses : actions/upload-artifact@v6
                 with :
 
-                    # constraints-py123.txt
+                    # constraints.txt
                     name : ${{ env.ARTIFACT_NAME }}
 
-                    # Data/Python/Constraints/constraints-py123.txt
+                    # Data/Python/3.xx/constraints.txt
                     path : ${{ env.ARTIFACT_PATH }}
 
                     if-no-files-found : error
@@ -222,8 +222,8 @@ jobs:
                 with :
 
                     merge-multiple : true
-                    pattern : 'constraints-py*.txt'
-                    path : 'Data/Python/Constraints'
+                    pattern : 'constraints.txt'
+                    path : 'Data/Python/${{ matrix.py }}/'
 
                 ################################################################
 

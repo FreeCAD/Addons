@@ -10,7 +10,7 @@ version : 2
 updates:
 
     -   package-ecosystem : 'pip'
-        directory : '/Data/Python/Constraints'
+        directory : '/Data/Python/'
 
         schedule:
             interval : 'weekly'
