@@ -6,53 +6,46 @@
 
 <div align = center >
 
-# <img height = '36' src = './icons/AddonManager.svg' /> FreeCAD Addons
+# Addon Index
 
-This repository is a collection of various addons that  
-are made available via FreeCAD's addon manager.
+This repository contains the metadata of the  
+official addon index and related resources.
 
 <br/>
 
-[![Button Installation]][Installation]
-
-[![Button Submission]][Submission]
-
-[![Button Localization]][Localization]
+[![Button Documentation]][Documentation]
 
 </div>
 
+## Data
 
-## Topics
+The following metadata is stored:
 
--   [Allowed Python Packages]
+-   [`Index.json`][Index]   
+    List of known addons.
 
--   [Addon Manager Source]
+-   [`Python`][Python]  
+    Version specific metadata.
 
+    -   [`Allowed-Packages`][Packages]  
+        List of allowed Python packages.
 
-## Disclaimer
+    -   [`constraints.txt`][Constraints]   
+        Constraints of the Python packages.
 
-* The linked addons are not part of the FreeCAD itself.
-
-* They are not supported by the FreeCAD team directly.
-
-* While this list is curated & maintained, you should read the information provided by each addon before installing them.
-
-## Reports & Requests
-
-Bug reports and feature requests for addons should their respective repositories, not here.
+    -   [`pyproject.toml`][Project]  
+        Python environment configuration.
 
 <!----------------------------------------------------------------------------->
 
-[Button Installation]: https://img.shields.io/badge/Install_An_Addon-d45558?style=for-the-badge&logoColor=white&logo=actix
-[Button Localization]: https://img.shields.io/badge/Help_Localize_Addons-ffaa00?style=for-the-badge&logoColor=white&logo=googletranslate
-[Button Submission]: https://img.shields.io/badge/Submit_Your_Addon-3b8ad9?style=for-the-badge&logoColor=white&logo=testcafe
+[Constraints]: ./Data/Python/3.14/constraints.txt
+[Packages]: ./Data/Python/3.14/Allowed-Packages
+[Project]: ./Data/Python/3.14/pyproject.toml
+[Python]: ./Data/Python
+[Index]: ./Data/Index.json
 
-[Addon Manager Source]: https://github.com/FreeCAD/AddonManager
+<!----------------------------------------------------------------------------->
 
+[Button Documentation]: https://img.shields.io/badge/Documentation-3b8ad9?style=for-the-badge&logoColor=white&logo=buffer
 
-[Allowed Python Packages]: ./Documentation/Allowed-Python-Packages.md
-[Installation]: ./Documentation/Installation/README.md
-[Localization]: ./Documentation/Localization.md
-[Submission]: ./Documentation/Submission.md
-
-[Logo]: ./icons/AddonManager.svg
+[Documentation]: https://github.com/FreeCAD/Addon-Academy/tree/Latest/Pages/Topics/Addon-Index
