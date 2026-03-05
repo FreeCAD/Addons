@@ -5,7 +5,8 @@
 
 set -euo pipefail
 
-file='Data/Python/Allowed-Packages'
+cli="${1:?Missing CLI argument}"
+file="Data/Python/$cli/Allowed-Packages"
 
 test -f "$file" || { echo "::error file=$file::File not found"; exit 1; }
 
