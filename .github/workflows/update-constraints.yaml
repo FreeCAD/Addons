@@ -11,10 +11,6 @@
 #   Current the CI will fail if any package is not
 #   available for a particular version of Python.
 #
-#   Eventually this system will need to be modified
-#   such that we have one Allowed-Packages file per
-#   Python version.
-#
 
 ################################################################################
 
@@ -83,14 +79,25 @@ env:
 
 jobs:
 
-    Validate:
+    Build:
 
         runs-on : ubuntu-latest
-        name : Validate
+        name : Build
+
+        strategy:
+
+            fail-fast: false
+
+            matrix:
+
+                #
+                #   The Addon Manager currently supports the following
+                #   versions of Python - provide a constraints each.
+                #
+
+                py : [ '3.11' , '3.12' , '3.13' , '3.14' ]
 
         steps:
-
-                # https://github.com/marketplace/actions/checkout
 
             -   name : Checkout Pull Request
                 uses : actions/checkout@v6
@@ -109,51 +116,14 @@ jobs:
             -   name : Validate Allowed-Packages
 
                 shell : bash
-                run : '.github/workflows/Update-Constraints/Validate-Allowed-Packages.sh'
+                run : '.github/workflows/Update-Constraints/Validate-Allowed-Packages.sh "${{ matrix.py }}"'
 
-    ############################################################################
-
-    Build:
-
-        runs-on : ubuntu-latest
-        needs : Validate
-        name : Build
-
-        strategy:
-
-            fail-fast: false
-
-            matrix:
-
-                #
-                #   The Addon Manager currently supports the following
-                #   versions of Python - provide a constraints each.
-                #
-
-                py : [ '3.11' , '3.12' , '3.13' , '3.14' ]
-
-        steps:
+                ################################################################
 
             -   name : Exclude Wheel-less Packages
 
                 if : ${{ matrix.py == '3.13' || matrix.py == '3.14' }}
                 run : echo "EXCLUDE_PACKAGES=${EXCLUDE_PACKAGES},openexr,pyoptools" >> "$GITHUB_ENV"
-
-                ################################################################
-
-                # https://github.com/marketplace/actions/checkout
-
-            -   name : Checkout Pull Request
-                uses : actions/checkout@v6
-                with :
-
-                    repository : ${{ github.event.pull_request.head.repo.full_name }}
-                    ref : ${{ github.event.pull_request.head.ref }}
-
-                    fetch-depth : 0
-
-                    submodules : false
-                    lfs : false
 
                 ################################################################
 
