@@ -772,6 +772,15 @@
       "curated": true
     }
   ],
+  "IDF": [
+    {
+      "repository": "https://github.com/FreeCAD/IDF",
+      "git_ref": "Latest",
+      "branch_display_name": "Latest",
+      "zip_url": "https://github.com/FreeCAD/IDF/archive/refs/heads/Latest.zip",
+      "curated": true
+    }
+  ],
   "ImportNURBS": [
     {
       "repository": "https://github.com/KeithSloan/ImportNURBS",
