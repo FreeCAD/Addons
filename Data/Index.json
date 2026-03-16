@@ -1168,6 +1168,15 @@
       "curated": true
     }
   ],
+  "Ratchet": [
+    {
+      "repository": "https://github.com/erroronline1/ratchetWB",
+      "git_ref": "main",
+      "branch_display_name": "Latest",
+      "zip_url": "https://github.com/erroronline1/ratchetWB/archive/refs/heads/main.zip",
+      "curated": true
+    }
+  ],
   "reconstruction": [
     {
       "repository": "https://github.com/microelly2/reconstruction",
