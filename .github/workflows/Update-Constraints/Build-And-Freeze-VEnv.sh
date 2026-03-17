@@ -15,7 +15,7 @@ awk '
     /^[[:space:]]*$/ { next }
     /^[[:space:]]*#/ { next }
     { gsub(/^[[:space:]]+|[[:space:]]+$/,"",$0); print tolower($0) }
-' Data/Python/Allowed-Packages > .allowed_names
+' Data/Python/${py_tag}/Allowed-Packages > .allowed_names
 
 IFS=',' read -ra NATIVE <<<"${ALLOW_SDIST_NATIVE:-}"
 
