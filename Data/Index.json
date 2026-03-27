@@ -1144,6 +1144,13 @@
   ],
   "Pyramids-and-Polyhedrons": [
     {
+      "branch_display_name": "Stable",
+      "repository": "https://github.com/Addon-Shelter/Polyhedra",
+      "zip_url": "https://github.com/Addon-Shelter/Polyhedra/archive/refs/heads/Stable.zip",
+      "git_ref": "Stable",
+      "curated": true
+    },
+    {
       "branch_display_name": "Latest",
       "repository": "https://github.com/Addon-Shelter/Polyhedra",
       "zip_url": "https://github.com/Addon-Shelter/Polyhedra/archive/refs/heads/Latest.zip",
