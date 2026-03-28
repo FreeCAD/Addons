@@ -103,15 +103,6 @@
       "curated": true
     }
   ],
-  "assembly2": [
-    {
-      "repository": "https://github.com/hamish2014/FreeCAD_assembly2",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/hamish2014/FreeCAD_assembly2/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "Assembly2MuJoCo": [
     {
       "repository": "https://github.com/AnesBenmerzoug/FreeCAD-Assembly2MuJoCo",
