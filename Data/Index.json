@@ -366,15 +366,6 @@
       "curated": false
     }
   ],
-  "cura_engine": [
-    {
-      "repository": "https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "CurvedShapes": [
     {
       "repository": "https://github.com/chbergmann/CurvedShapesWorkbench",
