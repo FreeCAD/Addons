@@ -362,9 +362,16 @@
   "Cubinets": [
     {
       "repository": "https://github.com/foreachidea/Cubinets",
-      "git_ref": "main",
+      "git_ref": "stable",
+      "branch_display_name": "Stable",
+      "zip_url": "https://github.com/foreachidea/Cubinets/archive/refs/heads/stable.zip",
+      "curated": false
+    },
+    {
+      "repository": "https://github.com/foreachidea/Cubinets",
+      "git_ref": "latest",
       "branch_display_name": "Latest",
-      "zip_url": "https://github.com/foreachidea/Cubinets/archive/refs/heads/main.zip",
+      "zip_url": "https://github.com/foreachidea/Cubinets/archive/refs/heads/latest.zip",
       "curated": false
     }
   ],
