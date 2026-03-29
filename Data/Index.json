@@ -671,15 +671,6 @@
       "curated": true
     }
   ],
-  "flamingo": [
-    {
-      "repository": "https://github.com/oddtopus/flamingo",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/oddtopus/flamingo/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "frame": [
     {
       "repository": "https://github.com/looooo/freecad_frame",
