@@ -1465,15 +1465,6 @@
       "curated": true
     }
   ],
-  "timber": [
-    {
-      "repository": "https://github.com/wood-galaxy/FreeCAD-Timber",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/wood-galaxy/FreeCAD-Timber/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "toSketch": [
     {
       "repository": "https://github.com/KeithSloan/toSketch",
