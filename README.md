@@ -48,4 +48,4 @@ The following metadata is stored:
 
 [Button Documentation]: https://img.shields.io/badge/Documentation-3b8ad9?style=for-the-badge&logoColor=white&logo=buffer
 
-[Documentation]: https://github.com/FreeCAD/Addon-Academy/tree/Latest/Pages/Topics/Addon-Index
+[Documentation]: https://freecad.github.io/Addon-Academy/Topics/Addon-Index/
