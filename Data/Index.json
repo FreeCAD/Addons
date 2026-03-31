@@ -484,15 +484,6 @@
       "curated": true
     }
   ],
-  "ExtMan": [
-    {
-      "repository": "https://github.com/mnesarco/FreeCAD_ExtMan",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/mnesarco/FreeCAD_ExtMan/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "fasteners": [
     {
       "repository": "https://github.com/shaise/FreeCAD_FastenersWB",
