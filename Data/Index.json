@@ -724,15 +724,6 @@
       "curated": true
     }
   ],
-  "Help": [
-    {
-      "repository": "https://github.com/FreeCAD/FreeCAD-Help",
-      "git_ref": "main",
-      "branch_display_name": "main",
-      "zip_url": "https://github.com/FreeCAD/FreeCAD-Help/archive/refs/heads/main.zip",
-      "curated": true
-    }
-  ],
   "IconThemes": [
     {
       "repository": "https://github.com/triplus/IconThemes",
