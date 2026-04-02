@@ -697,15 +697,6 @@
       "curated": true
     }
   ],
-  "Glass": [
-    {
-      "repository": "https://github.com/triplus/Glass",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/triplus/Glass/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "Gridfinity": [
     {
       "repository": "https://github.com/Stu142/FreeCAD-Gridfinity-Workbench",
