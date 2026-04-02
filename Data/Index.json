@@ -858,15 +858,6 @@
       "curated": true
     }
   ],
-  "ModernUI": [
-    {
-      "repository": "https://github.com/HakanSeven12/Modern-UI",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/HakanSeven12/Modern-UI/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "MOOC": [
     {
       "repository": "https://github.com/j-wiedemann/mooc-workbench",
