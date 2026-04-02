@@ -966,15 +966,6 @@
       "curated": true
     }
   ],
-  "OSE3dPrinter": [
-    {
-      "repository": "https://github.com/gbroques/ose-3d-printer-workbench",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/gbroques/ose-3d-printer-workbench/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "osh-autodoc-workbench": [
     {
       "repository": "https://codeberg.org/osh-autodoc/osh-autodoc-workbench",
