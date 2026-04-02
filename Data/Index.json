@@ -697,15 +697,6 @@
       "curated": true
     }
   ],
-  "GDT": [
-    {
-      "repository": "https://github.com/juanvanyo/FreeCAD-GDT",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/juanvanyo/FreeCAD-GDT/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "Glass": [
     {
       "repository": "https://github.com/triplus/Glass",
