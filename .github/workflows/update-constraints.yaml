@@ -275,7 +275,7 @@ jobs:
 
                 shell : bash
                 env :
-                    GH_TOKEN : ${{ secrets.BOT_PUSH_TOKEN }}
+                    GH_TOKEN : ${{ secrets.GITHUB_TOKEN }}
                 run : |
                     for dir in artifacts/constraints-*.txt; do
                         version="${dir#artifacts/constraints-}"
