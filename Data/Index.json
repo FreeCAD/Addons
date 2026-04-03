@@ -758,6 +758,15 @@
       "curated": true
     }
   ],
+  "InstrumentInput": [
+    {
+      "repository": "https://codeberg.org/stv0g/freecad-instrumentinput",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://codeberg.org/stv0g/freecad-instrumentinput/archive/main.zip",
+      "curated": true
+    }
+  ],
   "InventorLoader": [
     {
       "repository": "https://github.com/jmplonka/InventorLoader",

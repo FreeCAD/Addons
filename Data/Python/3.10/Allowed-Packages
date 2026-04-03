@@ -101,6 +101,7 @@ sentry-sdk
 shapely
 six
 streamdeck
+sylvac-measure
 trimesh
 triangle
 typing-extensions

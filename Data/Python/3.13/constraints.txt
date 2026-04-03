@@ -150,6 +150,7 @@ streamdeck==0.9.8
 svgelements==1.9.6
 svgpathtools==1.7.2
 svgwrite==1.4.3
+sylvac-measure==0.3.0
 sympy==1.14.0
 testtools==2.9.0
 threadpoolctl==3.6.0
