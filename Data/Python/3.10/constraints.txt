@@ -117,6 +117,7 @@ six==1.17.0
 sortedcontainers==2.4.0
 soupsieve==2.8.1
 streamdeck==0.9.8
+sylvac-measure==0.2.2
 sympy==1.14.0
 testtools==2.8.2
 threadpoolctl==3.6.0

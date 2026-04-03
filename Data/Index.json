@@ -733,6 +733,15 @@
       "curated": true
     }
   ],
+  "InstrumentInput": [
+    {
+      "repository": "https://codeberg.org/stv0g/InstrumentInput",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://codeberg.org/stv0g/InstrumentInput/archive/main.zip",
+      "curated": true
+    }
+  ],
   "InventorLoader": [
     {
       "repository": "https://github.com/jmplonka/InventorLoader",
