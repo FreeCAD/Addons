@@ -192,8 +192,8 @@ jobs:
                 with :
 
                     merge-multiple : true
-                    pattern : 'constraints.txt'
-                    path : 'Data/Python/${{ matrix.py }}/'
+                    pattern : 'constraints-*.txt'
+                    path : '.'
 
                 ################################################################
 

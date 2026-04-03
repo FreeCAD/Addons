@@ -62,5 +62,5 @@ pip freeze --exclude-editable > "$out_path"
 
 # Expose both basename (artifact name) and path (artifact file)
 
-echo "ARTIFACT_NAME=$out_basename" >> "$GITHUB_ENV"
+echo "ARTIFACT_NAME=constraints-${py_tag}.txt" >> "$GITHUB_ENV"
 echo "ARTIFACT_PATH=$out_path" >> "$GITHUB_ENV"
