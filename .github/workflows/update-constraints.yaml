@@ -192,9 +192,20 @@ jobs:
                 uses : actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
                 with :
 
-                    merge-multiple : true
                     pattern : 'constraints-*.txt'
-                    path : '.'
+                    path : 'artifacts'
+
+                ################################################################
+
+            -   name : Place Constraints
+
+                shell : bash
+                run : |
+                    for dir in artifacts/constraints-*.txt; do
+                        version="${dir#artifacts/constraints-}"
+                        version="${version%.txt}"
+                        cp "$dir/constraints.txt" "Data/Python/${version}/constraints.txt"
+                    done
 
                 ################################################################
 
@@ -255,9 +266,8 @@ jobs:
                 uses : actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
                 with :
 
-                    merge-multiple : true
                     pattern : 'constraints-*.txt'
-                    path : '.'
+                    path : 'artifacts'
 
                 ################################################################
 
@@ -267,6 +277,12 @@ jobs:
                 env :
                     GH_TOKEN : ${{ secrets.BOT_PUSH_TOKEN }}
                 run : |
+                    for dir in artifacts/constraints-*.txt; do
+                        version="${dir#artifacts/constraints-}"
+                        version="${version%.txt}"
+                        cp "$dir/constraints.txt" "Data/Python/${version}/constraints.txt"
+                    done
+
                     git add Data/Python/*/constraints.txt || true
 
                     if git diff --staged --quiet; then
