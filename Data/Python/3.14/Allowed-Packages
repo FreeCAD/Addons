@@ -99,7 +99,7 @@ shapely
 six
 streamdeck
 trimesh
-triangle
+# triangle  Not yet available for Python 3.14
 typing-extensions
 tzlocal
 urllib3
