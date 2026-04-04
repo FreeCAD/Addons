@@ -99,6 +99,7 @@ sentry-sdk
 shapely
 six
 streamdeck
+sylvac-measure
 trimesh
 # triangle  Not yet available for Python 3.14
 typing-extensions
