@@ -10,6 +10,7 @@ awkward_cpp==52
 backoff==2.2.1
 beautifulsoup4==4.14.3
 blinker==1.9.0
+cadquery==2.3.0
 capytaine==2.3.1
 certifi==2026.2.25
 cffi==2.0.0
@@ -93,7 +94,7 @@ python-dateutil==2.9.0.post0
 python-docx==1.2.0
 python-dotenv==1.2.2
 pytz==2026.1.post1
-pyvista==0.47.1
+pyvista==0.47.2
 PyYAML==6.0.3
 QtPy==2.4.3
 QtRangeSlider==0.1.5
@@ -119,12 +120,12 @@ trimesh==4.11.5
 txaio==25.12.2
 typing_extensions==4.15.0
 typish==1.9.3
-tzdata==2025.3
+tzdata==2026.1
 tzlocal==5.3.1
 urllib3==2.6.3
 vedo==2025.5.4
 vermin==1.8.0
-vtk==9.6.1
+vtk==9.6.0
 xarray==2026.2.0
 xgbxml==0.0.10
 xlrd==2.0.2
