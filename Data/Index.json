@@ -802,6 +802,21 @@
       "curated": true
     }
   ],
+  "Machines": [
+    {
+      "repository": "https://github.com/FreeCAD/Machines",
+      "git_ref": "Stable",
+      "branch_display_name": "Stable",
+      "zip_url": "https://github.com/FreeCAD/Machines/archive/refs/heads/Stable.zip",
+      "curated": true
+    },{
+      "repository": "https://github.com/FreeCAD/Machines",
+      "git_ref": "Latest",
+      "branch_display_name": "Latest",
+      "zip_url": "https://github.com/FreeCAD/Machines/archive/refs/heads/Latest.zip",
+      "curated": true
+    }
+  ],
   "MakerWorkbench": [
     {
       "repository": "https://github.com/URJCMakerGroup/MakerWorkbench",
