@@ -185,15 +185,6 @@
       "curated": true
     }
   ],
-  "bimtester": [
-    {
-      "repository": "https://github.com/bimtester/bimtesterfc",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/bimtester/bimtesterfc/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "boltsfc": [
     {
       "repository": "https://github.com/boltsparts/boltsfc",
