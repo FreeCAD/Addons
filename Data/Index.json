@@ -456,6 +456,15 @@
       "curated": true
     }
   ],
+  "Ext UI": [
+    {
+      "repository": "https://github.com/vovkd/freecad-extui",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/vovkd/freecad-extui/archive/refs/heads/main.zip",
+      "curated": true
+    }
+  ],
   "fasteners": [
     {
       "repository": "https://github.com/shaise/FreeCAD_FastenersWB",
