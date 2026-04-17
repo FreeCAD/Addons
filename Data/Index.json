@@ -359,15 +359,8 @@
   "DFM_Workbench": [
     {
       "repository": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench",
-      "git_ref": "release",
-      "branch_display_name": "Stable",
-      "zip_url": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench/archive/refs/heads/release.zip",
-      "curated": false
-    },
-    {
-      "repository": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench",
       "git_ref": "main",
-      "branch_display_name": "Latest",
+      "branch_display_name": "main",
       "zip_url": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench/archive/refs/heads/main.zip",
       "curated": false
     }
