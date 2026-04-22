@@ -374,6 +374,15 @@
       "curated": true
     }
   ],
+  "DFM" : [
+    {
+      "repository": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench",
+      "git_ref": "main",
+      "branch_display_name": "Latest",
+      "zip_url": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "dodo": [
     {
       "repository": "https://github.com/oddtopus/dodo",
