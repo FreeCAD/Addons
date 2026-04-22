@@ -1,0 +1,45 @@
+
+name : '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲 - 𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻'
+
+description : 'Request the addition of a Python package.'
+title : '‹Package›'
+
+assignees : [ 'PhoneDroid' ]
+labels : [ '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲' , '+' ]
+
+body:
+
+    -   type : 'markdown'
+
+        attributes:
+            value : '<!-- Spacer -->'
+
+    -   type : 'input'
+        id : 'Additions'
+
+        attributes :
+
+            description : 'Handle of the [PyPI](https://pypi.org/) package.'
+            placeholder : 'package-a'
+            label : '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲'
+
+        validations:
+            required : true
+
+    -   type : 'markdown'
+
+        attributes:
+            value : '<!-- Spacer -->'
+
+    -   type : 'textarea'
+        id : 'Reason'
+
+        attributes :
+
+            description : 'Describe why you are requesting this change.'
+            placeholder : 'My addon ‹abc› needs this package to do ‹xyz›.'
+            render : 'txt'
+            label : '📑 𝗥𝗲𝗮𝘀𝗼𝗻'
+
+        validations:
+            required : true
