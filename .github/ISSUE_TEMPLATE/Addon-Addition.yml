@@ -1,0 +1,44 @@
+
+name : '💿 𝗔𝗱𝗱𝗼𝗻 - 𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻'
+
+description : 'Submit your addon for review.'
+title : 'Addon'
+
+labels : [ '💿 𝗔𝗱𝗱𝗼𝗻' , '+' ]
+
+body:
+
+    -   type : 'markdown'
+
+        attributes:
+            value : '<!-- Spacer -->'
+
+    -   type : 'input'
+        id : 'Repository'
+
+        attributes :
+
+            description : 'Repository url of your addon.'
+            placeholder : 'https://codeberg.org/AddonGod/Awesome'
+            label : '🔌 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆'
+
+        validations:
+            required : true
+
+    -   type : 'markdown'
+
+        attributes:
+            value : '<!-- Spacer -->'
+
+    -   type : 'textarea'
+        id : 'Notes'
+
+        attributes :
+
+            description : 'Anything you want use to know before the review.'
+            placeholder : 'My addon is based on an existing addon, ..'
+            render : 'txt'
+            label : '📑 𝗡𝗼𝘁𝗲𝘀'
+
+        validations:
+            required : false
