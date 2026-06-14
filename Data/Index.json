@@ -741,6 +741,16 @@
       "curated": true
     }
   ],
+  "HistoryWorkbench": [
+    {
+      "repository": "https://github.com/eblanshey/HistoryWorkbench",
+      "git_ref": "release",
+      "branch_display_name": "release",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/eblanshey/HistoryWorkbench/archive/refs/heads/release.zip",
+      "curated": false
+    }
+  ],
   "IconThemes": [
     {
       "repository": "https://github.com/triplus/IconThemes",
