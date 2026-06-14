@@ -1443,6 +1443,16 @@
       "curated": true
     }
   ],
+  "ThreadWorkbench": [
+    {
+      "repository": "https://github.com/krwork3d/freecad_thread_workbench",
+      "git_ref": "master",
+      "branch_display_name": "master",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/krwork3d/freecad_thread_workbench/archive/refs/heads/master.zip",
+      "curated": false
+    }
+  ],
   "TitleBlock": [
     {
       "repository": "https://github.com/APEbbers/TitleBlock-WB",
