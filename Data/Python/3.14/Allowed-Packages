@@ -72,7 +72,6 @@ ply
 posthog
 protobuf
 # py-slvs Not yet available for Python 3.14
-pybullet
 pycollada
 pyfakefs
 pyg4ometry

@@ -74,7 +74,6 @@ ply
 posthog
 protobuf
 py-slvs
-pybullet
 pycollada
 pyfakefs
 pyg4ometry
