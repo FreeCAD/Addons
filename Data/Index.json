@@ -590,6 +590,15 @@
       "curated": true
     }
   ],
+  "freecad-integration": [
+    {
+      "repository": "https://github.com/SimplyPrint/freecad-integration",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/SimplyPrint/freecad-integration/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "Freecad-Built-in-themes-beta": [
     {
       "repository": "https://github.com/MisterMakerNL/Freecad-Built-in-themes-beta",
