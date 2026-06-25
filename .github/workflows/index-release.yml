@@ -1,6 +1,16 @@
 name: Index release PR
 
 on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag (e.g. v0.1.13)
+        required: true
+        type: string
+      version:
+        description: package.xml version (e.g. 0.1.13)
+        required: true
+        type: string
   repository_dispatch:
     types: [freecad-mcp-bridge-release]
 
@@ -32,6 +42,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INDEX_PR_AUTHORIZED: "true"
-          RELEASE_TAG: ${{ github.event.client_payload.tag }}
-          RELEASE_VERSION: ${{ github.event.client_payload.version }}
+          RELEASE_TAG: ${{ inputs.tag || github.event.client_payload.tag }}
+          RELEASE_VERSION: ${{ inputs.version || github.event.client_payload.version }}
         run: bash scripts/open-index-pr.sh
