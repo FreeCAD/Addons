@@ -1,0 +1,37 @@
+name: Index release PR
+
+on:
+  repository_dispatch:
+    types: [freecad-mcp-bridge-release]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  open_index_pr:
+    name: Patch Index.json and open upstream PR
+    runs-on: ubuntu-latest
+    outputs:
+      index_pr_status: ${{ steps.index_pr.outputs.index_pr_status }}
+      index_pr_url: ${{ steps.index_pr.outputs.index_pr_url }}
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Open Index PR
+        id: index_pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INDEX_PR_AUTHORIZED: "true"
+          RELEASE_TAG: ${{ github.event.client_payload.tag }}
+          RELEASE_VERSION: ${{ github.event.client_payload.version }}
+        run: bash scripts/open-index-pr.sh
