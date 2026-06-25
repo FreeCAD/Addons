@@ -411,7 +411,7 @@
       "curated": false
     }
   ],
-  "DFM" : [
+  "DFM": [
     {
       "repository": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench",
       "git_ref": "main",
@@ -560,6 +560,15 @@
       "git_ref": "main",
       "branch_display_name": "main",
       "zip_url": "https://github.com/alekssadowski95/FreeCAD-Beginner-Assistant/archive/refs/heads/main.zip",
+      "curated": true
+    }
+  ],
+  "freecad-mcp-bridge": [
+    {
+      "repository": "https://github.com/CREATeNG/freecad-mcp-bridge",
+      "git_ref": "v0.1.13",
+      "branch_display_name": "v0.1.13",
+      "zip_url": "https://github.com/CREATeNG/freecad-mcp-bridge/archive/refs/tags/v0.1.13.zip",
       "curated": true
     }
   ],
@@ -831,7 +840,8 @@
       "branch_display_name": "Stable",
       "zip_url": "https://github.com/Addon-Shelter/Runner/archive/refs/heads/Stable.zip",
       "curated": true
-    },{
+    },
+    {
       "repository": "https://github.com/Addon-Shelter/Runner",
       "git_ref": "Latest",
       "branch_display_name": "Latest",
@@ -873,7 +883,8 @@
       "branch_display_name": "Stable",
       "zip_url": "https://github.com/FreeCAD/Machines/archive/refs/heads/Stable.zip",
       "curated": true
-    },{
+    },
+    {
       "repository": "https://github.com/FreeCAD/Machines",
       "git_ref": "Latest",
       "branch_display_name": "Latest",
@@ -1389,9 +1400,9 @@
       "curated": true
     }
   ],
-  "Supplemental-Materials" : [
+  "Supplemental-Materials": [
     {
-      "repository": "https://github.com/FreeCAD/Supplemental-Materials" ,
+      "repository": "https://github.com/FreeCAD/Supplemental-Materials",
       "git_ref": "Latest",
       "branch_display_name": "Latest",
       "zip_url": "https://github.com/FreeCAD/Supplemental-Materials/archive/refs/heads/Latest.zip",
