@@ -132,6 +132,15 @@
       "curated": true
     }
   ],
+  "BananaForScale": [
+    {
+      "repository": "https://github.com/FabioTavernini/bananaforscale",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/FabioTavernini/bananaforscale/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "BCFPlugin": [
     {
       "repository": "https://github.com/podestplatz/BCF-Plugin-FreeCAD",
