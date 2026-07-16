@@ -741,6 +741,15 @@
       "curated": true
     }
   ],
+  "GearWorkBench": [
+    {
+      "repository": "https://github.com/iplayfast/GearWorkBench",
+      "git_ref": "1.3",
+      "branch_display_name": "1.3",
+      "zip_url": "https://github.com/iplayfast/GearWorkBench/archive/refs/tags/1.3.zip",
+      "curated": false
+    }
+  ],
   "Gridfinity": [
     {
       "repository": "https://github.com/Stu142/FreeCAD-Gridfinity-Workbench",
