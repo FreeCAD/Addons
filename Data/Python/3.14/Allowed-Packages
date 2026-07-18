@@ -33,6 +33,7 @@ backoff
 beautifulsoup4
 blinker
 cadquery
+cadquery-ocp
 capytaine
 certifi
 charset-normalizer
