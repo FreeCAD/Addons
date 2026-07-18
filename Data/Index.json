@@ -617,6 +617,15 @@
       "curated": true
     }
   ],
+  "FreeCAD-Parametric-Export": [
+    {
+      "repository": "https://github.com/MarcBresson/FreeCAD-Parametric-Export",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/MarcBresson/FreeCAD-Parametric-Export/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "FreeCAD-Ribbon": [
     {
       "repository": "https://github.com/APEbbers/FreeCAD-Ribbon",
