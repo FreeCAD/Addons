@@ -842,6 +842,15 @@
       "curated": true
     }
   ],
+  "KiConnect": [
+    {
+      "repository": "https://codeberg.org/kiconnect/KiConnect",
+      "git_ref": "release",
+      "branch_display_name": "release",
+      "zip_url": "https://codeberg.org/kiconnect/KiConnect/archive/release.zip",
+      "curated": true
+    }
+  ],
   "lattice2": [
     {
       "repository": "https://github.com/DeepSOIC/Lattice2",
