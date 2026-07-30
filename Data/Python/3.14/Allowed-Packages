@@ -89,6 +89,7 @@ python-dateutil
 python-docx
 python-dotenv
 pyvista
+pyzmq
 qtpy
 qtrangeslider
 requests
