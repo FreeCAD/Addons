@@ -493,6 +493,15 @@
       "curated": true
     }
   ],
+  "EMStudio": [
+    {
+      "repository": "https://github.com/king-aj3/EMStudioFree",
+      "git_ref": "master",
+      "branch_display_name": "master",
+      "zip_url": "https://github.com/king-aj3/EMStudioFree/archive/refs/heads/master.zip",
+      "curated": false
+    }
+  ],
   "Estimate": [
     {
       "repository": "https://github.com/erroronline1/estimateWB",
@@ -615,6 +624,15 @@
       "branch_display_name": "master",
       "zip_url": "https://github.com/zaphB/freecad.optics_design_workbench/archive/refs/heads/master.zip",
       "curated": true
+    }
+  ],
+  "FreeCAD-Parametric-Export": [
+    {
+      "repository": "https://github.com/MarcBresson/FreeCAD-Parametric-Export",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/MarcBresson/FreeCAD-Parametric-Export/archive/refs/heads/main.zip",
+      "curated": false
     }
   ],
   "FreeCAD-Ribbon": [
@@ -833,6 +851,15 @@
       "curated": true
     }
   ],
+  "KiConnect": [
+    {
+      "repository": "https://codeberg.org/kiconnect/KiConnect",
+      "git_ref": "release",
+      "branch_display_name": "release",
+      "zip_url": "https://codeberg.org/kiconnect/KiConnect/archive/release.zip",
+      "curated": true
+    }
+  ],
   "lattice2": [
     {
       "repository": "https://github.com/DeepSOIC/Lattice2",
@@ -962,6 +989,15 @@
       "branch_display_name": "master",
       "zip_url": "https://github.com/Francisco-Rosa/FreeCAD-Movie/archive/refs/heads/master.zip",
       "curated": true
+    }
+  ],
+  "MyCustomPiping": [
+    {
+      "repository": "https://github.com/RamDj12049/MyCustomPiping",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/RamDj12049/MyCustomPiping/archive/refs/heads/main.zip",
+      "curated": false
     }
   ],
   "NikraDAP": [

@@ -33,6 +33,7 @@ backoff
 beautifulsoup4
 blinker
 cadquery
+cadquery-ocp
 capytaine
 certifi
 charset-normalizer
@@ -88,6 +89,7 @@ python-dateutil
 python-docx
 python-dotenv
 pyvista
+pyzmq
 qtpy
 qtrangeslider
 requests
