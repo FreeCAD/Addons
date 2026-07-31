@@ -991,6 +991,15 @@
       "curated": true
     }
   ],
+  "MyCustomPiping": [
+    {
+      "repository": "https://github.com/RamDj12049/MyCustomPiping",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/RamDj12049/MyCustomPiping/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "NikraDAP": [
     {
       "repository": "https://github.com/NikraDAP/FreeCAD-NikraDAP",
