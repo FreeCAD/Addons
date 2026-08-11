@@ -954,6 +954,16 @@
       "curated": true
     }
   ],
+  "MBDWorkbench": [
+    {
+      "repository": "https://github.com/ChipsWoodShop/FreeCAD-MBDWorkbench",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/ChipsWoodShop/FreeCAD-MBDWorkbench/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "MeshRemodel": [
     {
       "repository": "https://github.com/mwganson/MeshRemodel",
