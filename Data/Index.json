@@ -1452,6 +1452,15 @@
       "curated": true
     }
   ],
+  "stepParts": [
+    {
+      "repository": "https://github.com/iplayfast/stepParts",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/iplayfast/stepParts/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "Supplemental-Materials" : [
     {
       "repository": "https://github.com/FreeCAD/Supplemental-Materials" ,
