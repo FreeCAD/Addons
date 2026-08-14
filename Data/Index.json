@@ -605,7 +605,8 @@
       "git_ref": "main",
       "branch_display_name": "main",
       "zip_url": "https://github.com/Reqrefusion/FreeCAD-Documentation-html/archive/refs/heads/main.zip",
-      "curated": true
+      "curated": true,
+      "sparse_cache": true
     }
   ],
   "Freecad-Built-in-themes-beta": [
@@ -899,7 +900,8 @@
       "git_ref": "master",
       "branch_display_name": "master",
       "zip_url": "https://github.com/FreeCAD/FreeCAD-library/archive/refs/heads/master.zip",
-      "curated": true
+      "curated": true,
+      "sparse_cache": true
     }
   ],
   "Lithophane": [
@@ -1052,7 +1054,8 @@
       "git_ref": "main",
       "branch_display_name": "main",
       "zip_url": "https://github.com/FreeCAD/FreeCAD-documentation/archive/refs/heads/main.zip",
-      "curated": true
+      "curated": true,
+      "sparse_cache": true
     }
   ],
   "Ondsel-Lens": [
