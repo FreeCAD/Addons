@@ -975,6 +975,16 @@
       "curated": true
     }
   ],
+  "MeshToFeatures": [
+    {
+      "repository": "https://github.com/MasoudMiM/MeshToFeatures",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/MasoudMiM/MeshToFeatures/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "MnesarcoUtils": [
     {
       "repository": "https://github.com/mnesarco/FreeCAD_Utils",
