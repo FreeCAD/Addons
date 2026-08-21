@@ -104,6 +104,7 @@ shapely
 six
 streamdeck
 sylvac-measure
+sympy
 trimesh
 triangle
 typing-extensions
