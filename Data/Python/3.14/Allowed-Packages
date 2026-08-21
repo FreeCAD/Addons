@@ -98,6 +98,7 @@ scikit-image
 scikit-learn
 scikit-sparse
 scipy
+scour
 sentry-sdk
 shapely
 six
