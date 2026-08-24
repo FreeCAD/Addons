@@ -19,7 +19,7 @@ blinker==1.9.0
 cadquery==2.8.0
 cadquery-ocp==7.9.3.1.1
 cadquery-ocp-proxy==7.9.3.1.1
-capytaine==2.3.1
+capytaine==3.0.0
 casadi==3.7.2
 cbor2==6.1.4
 certifi==2026.7.22
@@ -31,7 +31,7 @@ contourpy==1.3.3
 cpylog==1.6.0
 cryptography==50.0.0
 cycler==0.12.1
-cyclopts==4.23.1
+cyclopts==4.23.2
 dbus-fast==5.0.22
 defusedxml==0.7.1
 distro==1.9.0
@@ -91,14 +91,14 @@ pillow==12.3.0
 platformdirs==4.11.3
 ply==3.11
 pooch==1.9.0
-posthog==7.39.2
+posthog==7.42.1
 propcache==0.5.2
 protobuf==5.29.6
 psutil==7.2.2
 pycollada==0.9.3
 pycparser==3.0
 pyfakefs==6.2.0
-pyg4ometry==1.4.4
+pyg4ometry==1.4.5
 pygit2==1.20.0
 Pygments==2.21.0
 PyJWT==2.13.0
@@ -129,8 +129,9 @@ runtype==0.5.3
 scikit-image==0.26.0
 scikit-learn==1.9.0
 scikit-sparse==0.5.0
-scipy==1.18.0
+scipy==1.18.1
 scooby==0.11.2
+scour==0.38.2
 sentry-sdk==2.68.0
 shapely==2.1.2
 six==1.17.0
@@ -141,7 +142,7 @@ streamdeck==0.9.8
 sylvac-measure==0.3.0
 sympy==1.14.0
 threadpoolctl==3.6.0
-tifffile==2026.8.16
+tifffile==2026.8.23
 trame==3.13.2
 trame-client==3.13.6
 trame-common==1.2.7
