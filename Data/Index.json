@@ -1549,6 +1549,16 @@
       "curated": true
     }
   ],
+  "TexturedObjImporter": [
+    {
+      "repository": "https://github.com/mlaffran/TexturedObjImporter",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/mlaffran/TexturedObjImporter/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "ThreadProfile": [
     {
       "repository": "https://github.com/mwganson/ThreadProfile",
