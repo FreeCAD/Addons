@@ -1598,6 +1598,16 @@
       "curated": true
     }
   ],
+  "ToolSeek": [
+    {
+      "repository": "https://github.com/robdevtech/ToolSeek",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/robdevtech/ToolSeek/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "freecad-wakatime": [
     {
       "repository": "https://github.com/Pegoku/freecad-wakatime",
