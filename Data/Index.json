@@ -151,15 +151,6 @@
       "curated": false
     }
   ],
-  "BCFPlugin": [
-    {
-      "repository": "https://github.com/podestplatz/BCF-Plugin-FreeCAD",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/podestplatz/BCF-Plugin-FreeCAD/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "Behave-Dark-Colors": [
     {
       "repository": "https://github.com/Chrismettal/FreeCAD-Behave-Dark-Preference-Pack",
@@ -491,15 +482,6 @@
       "git_ref": "main",
       "branch_display_name": "main",
       "zip_url": "https://github.com/ovo-Tim/EasyProfileFrame/archive/refs/heads/main.zip",
-      "curated": true
-    }
-  ],
-  "EM": [
-    {
-      "repository": "https://github.com/ediloren/EM-Workbench-for-FreeCAD",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/ediloren/EM-Workbench-for-FreeCAD/archive/refs/heads/master.zip",
       "curated": true
     }
   ],
@@ -1005,15 +987,6 @@
       "curated": true
     }
   ],
-  "MOOC": [
-    {
-      "repository": "https://github.com/j-wiedemann/mooc-workbench",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/j-wiedemann/mooc-workbench/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "Movie": [
     {
       "repository": "https://github.com/Francisco-Rosa/FreeCAD-Movie",
@@ -1209,15 +1182,6 @@
       "branch_display_name": "FreeCAD < 1.0",
       "freecad_max": "0.21.99",
       "zip_url": "https://github.com/FreeCAD/Plot/archive/refs/tags/2024.11.26.zip",
-      "curated": true
-    }
-  ],
-  "POV-Ray-Rendering": [
-    {
-      "repository": "https://github.com/TheRaytracers/freecad-povray-render",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/TheRaytracers/freecad-povray-render/archive/refs/heads/master.zip",
       "curated": true
     }
   ],
