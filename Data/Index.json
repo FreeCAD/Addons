@@ -1015,6 +1015,16 @@
       "curated": false
     }
   ],
+  "NeoRibbon": [
+    {
+      "repository": "https://github.com/robdevtech/NeoRibbon",
+      "git_ref": "master",
+      "branch_display_name": "master",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/robdevtech/NeoRibbon/archive/refs/heads/master.zip",
+      "curated": false
+    }
+  ],
   "NikraDAP": [
     {
       "repository": "https://github.com/NikraDAP/FreeCAD-NikraDAP",
