@@ -1032,6 +1032,16 @@
       "curated": false
     }
   ],
+  "Nesting": [
+    {
+      "repository": "https://github.com/StevePeters-US/Freecad-Nesting-Workbench",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.0.0",
+      "zip_url": "https://github.com/StevePeters-US/Freecad-Nesting-Workbench/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "NikraDAP": [
     {
       "repository": "https://github.com/NikraDAP/FreeCAD-NikraDAP",
