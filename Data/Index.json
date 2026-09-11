@@ -978,6 +978,16 @@
       "curated": true
     }
   ],
+  "MeshStudy": [
+    {
+      "repository": "https://github.com/eng-abdalla-abbas/MeshStudy",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.1",
+      "zip_url": "https://github.com/eng-abdalla-abbas/MeshStudy/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "MeshToFeatures": [
     {
       "repository": "https://github.com/MasoudMiM/MeshToFeatures",
