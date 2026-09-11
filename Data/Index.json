@@ -853,6 +853,16 @@
       "curated": true
     }
   ],
+  "Lapidary": [
+    {
+      "repository": "https://github.com/Dominic-Lentini/freecad-gemstone",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/Dominic-Lentini/freecad-gemstone/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "lattice2": [
     {
       "repository": "https://github.com/DeepSOIC/Lattice2",
