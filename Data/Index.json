@@ -260,6 +260,16 @@
       "curated": true
     }
   ],
+  "CarteGrid": [
+    {
+      "repository": "https://github.com/MarcBresson/CarteGrid",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/MarcBresson/CarteGrid/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "Catppuccin": [
     {
       "repository": "https://github.com/cnvuls/CatppuccinTheme",
@@ -617,15 +627,6 @@
       "branch_display_name": "master",
       "zip_url": "https://github.com/zaphB/freecad.optics_design_workbench/archive/refs/heads/master.zip",
       "curated": true
-    }
-  ],
-  "FreeCAD-Parametric-Export": [
-    {
-      "repository": "https://github.com/MarcBresson/FreeCAD-Parametric-Export",
-      "git_ref": "main",
-      "branch_display_name": "main",
-      "zip_url": "https://github.com/MarcBresson/FreeCAD-Parametric-Export/archive/refs/heads/main.zip",
-      "curated": false
     }
   ],
   "FreeCAD-Ribbon": [
