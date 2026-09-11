@@ -132,16 +132,6 @@
       "curated": true
     }
   ],
-  "AssemblyCut": [
-    {
-      "repository": "https://github.com/cipawow-ship-it/AssemblyCut",
-      "git_ref": "main",
-      "branch_display_name": "main",
-      "freecad_min": "1.1.0",
-      "zip_url": "https://github.com/cipawow-ship-it/AssemblyCut/archive/refs/heads/main.zip",
-      "curated": false
-    }
-  ],
   "BananaForScale": [
     {
       "repository": "https://github.com/FabioTavernini/bananaforscale",
@@ -1151,6 +1141,16 @@
       "git_ref": "master",
       "branch_display_name": "master",
       "zip_url": "https://github.com/DeepSOIC/Part-o-magic/archive/refs/heads/master.zip",
+      "curated": true
+    }
+  ],
+  "PartDesignUpgrade": [
+    {
+      "repository": "https://github.com/cipawow-ship-it/PartDesignUpgrade",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/cipawow-ship-it/PartDesignUpgrade/archive/refs/heads/main.zip",
       "curated": true
     }
   ],
