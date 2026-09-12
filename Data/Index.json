@@ -185,6 +185,16 @@
       "curated": true
     }
   ],
+  "BrickFace": [
+    {
+      "repository": "https://github.com/jacquesh82/FreeCAD-BrickFace",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.0.0",
+      "zip_url": "https://github.com/jacquesh82/FreeCAD-BrickFace/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "BulletDesigner": [
     {
       "repository": "https://github.com/Supermagnum/BulletDesigner",
