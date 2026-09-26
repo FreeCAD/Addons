@@ -74,6 +74,7 @@ pillow
 ply
 posthog
 protobuf
+psutil
 py-slvs
 pycollada
 pyfakefs
