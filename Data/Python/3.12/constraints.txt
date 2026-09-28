@@ -58,7 +58,7 @@ glfw==2.10.2
 gmsh==4.15.2
 hyperlink==21.0.0
 idna==3.20
-ImageIO==2.37.4
+ImageIO==2.38.0
 importlib_resources==7.1.0
 ipython==9.17.1
 ipython_pygments_lexers==1.1.1
@@ -111,7 +111,7 @@ parso==0.8.7
 path==17.1.1
 pexpect==4.9.0
 pillow==12.2.0
-platformdirs==4.12.0
+platformdirs==4.12.1
 plotly==7.1.0
 ply==3.11
 pooch==1.9.0
@@ -155,7 +155,7 @@ referencing==0.37.0
 requests==2.34.2
 rhino3dm==8.35.0
 rich==15.0.0
-rich-rst==2.1.0
+rich-rst==2.2.0
 rpds-py==2026.6.3
 runtype==0.5.3
 scikit-image==0.26.0
@@ -178,7 +178,7 @@ svgwrite==1.4.3
 sylvac-measure==0.3.0
 sympy==1.14.0
 threadpoolctl==3.7.0
-threejs-materials==1.2.3
+threejs-materials==1.2.4
 tifffile==2026.9.20
 traitlets==5.16.1
 trame==4.0.0
@@ -204,7 +204,7 @@ vermin==1.8.0
 vtk==9.3.1
 wcwidth==0.9.1
 webcolors==24.8.0
-wrapt==2.4.1
+wrapt==2.5.0
 wslink==2.5.7
 xarray==2026.7.0
 xgbxml==0.0.10
