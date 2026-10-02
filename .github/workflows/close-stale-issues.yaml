@@ -1,0 +1,47 @@
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# SPDX-FileNotice: Part of the FreeCAD project.
+
+name : Close Stale Issues
+
+on:
+
+    schedule:
+        -   cron : '30 1 * * *'
+
+    workflow_dispatch:
+
+concurrency:
+    cancel-in-progress : true
+    group : Close-Stale-Issues
+
+permissions:
+    issues : write
+
+jobs:
+
+    Close-Stale:
+
+        runs-on : ubuntu-latest
+
+        steps:
+
+            -   name : Mark and Close Stale Issues
+                uses : actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93 # v11.0.0
+                with :
+
+                    days-before-stale : 60
+                    days-before-close : 14
+                    days-before-pr-stale : -1
+                    days-before-pr-close : -1
+
+                    stale-issue-label : stale
+                    stale-issue-message : >
+                        This request has been automatically marked as stale
+                        because it has not had recent activity. It will be
+                        closed in 14 days if no further activity occurs.
+
+                    close-issue-message : >
+                        This request has been automatically closed because it
+                        has been inactive since being marked as stale.
+
+                    exempt-issue-labels : 'pinned,help wanted,Task'

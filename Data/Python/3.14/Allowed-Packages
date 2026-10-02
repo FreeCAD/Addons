@@ -73,6 +73,7 @@ pillow
 ply
 posthog
 protobuf
+psutil
 # py-slvs Not yet available for Python 3.14
 pycollada
 pyfakefs
@@ -98,11 +99,13 @@ scikit-image
 scikit-learn
 scikit-sparse
 scipy
+scour
 sentry-sdk
 shapely
 six
 streamdeck
 sylvac-measure
+sympy
 trimesh
 # triangle  Not yet available for Python 3.14
 typing-extensions

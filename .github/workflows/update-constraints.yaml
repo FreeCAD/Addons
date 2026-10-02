@@ -59,7 +59,7 @@ env:
     ALLOW_SDIST_NATIVE : 'scikit-sparse'
 
     # Comma-separated list
-    ALLOW_SDIST_PURE : 'hausdorff,pydot3k,tinynumpy'
+    ALLOW_SDIST_PURE : 'hausdorff,pydot3k,scour,tinynumpy'
 
     #
     #   Excluded Packages:

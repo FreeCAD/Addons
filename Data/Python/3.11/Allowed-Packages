@@ -74,6 +74,7 @@ pillow
 ply
 posthog
 protobuf
+psutil
 py-slvs
 pycollada
 pyfakefs
@@ -99,11 +100,13 @@ scikit-image
 scikit-learn
 scikit-sparse
 scipy
+scour
 sentry-sdk
 shapely
 six
 streamdeck
 sylvac-measure
+sympy
 trimesh
 triangle
 typing-extensions
