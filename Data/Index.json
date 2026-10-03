@@ -1092,6 +1092,15 @@
       "curated": true
     }
   ],
+  "Nxt": [
+    {
+      "repository": "https://github.com/obelisk79/FreeCAD-Nxt",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/obelisk79/FreeCAD-Nxt/archive/refs/heads/main.zip",
+      "curated": true
+    }
+  ],
   "offline-documentation": [
     {
       "repository": "https://github.com/FreeCAD/FreeCAD-documentation",
