@@ -630,6 +630,16 @@
       "curated": true
     }
   ],
+  "freecad-mcp-bridge": [
+    {
+      "repository": "https://github.com/CREATeNG/freecad-mcp-bridge",
+      "git_ref": "v0.1.17",
+      "branch_display_name": "v0.1.17",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/CREATeNG/freecad-mcp-bridge/archive/refs/tags/v0.1.17.zip",
+      "curated": false
+    }
+  ],
   "freecad.optics_design_workbench": [
     {
       "repository": "https://github.com/zaphB/freecad.optics_design_workbench",
