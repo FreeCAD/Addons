@@ -755,6 +755,16 @@
       "curated": true
     }
   ],
+  "FreekiCAD": [
+    {
+      "repository": "https://github.com/buganini/FreekiCAD",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.0.0",
+      "zip_url": "https://github.com/buganini/FreekiCAD/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "FusedFilamentDesign": [
     {
       "repository": "https://github.com/rahix/FusedFilamentDesign.git",
