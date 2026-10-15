@@ -946,6 +946,15 @@
       "curated": true
     }
   ],
+  "LiveSectionAnalyzer": [
+    {
+      "repository": "https://github.com/sedatkrn/FreeCAD-LiveSectionAnalyzer",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/sedatkrn/FreeCAD-LiveSectionAnalyzer/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "Machines": [
     {
       "repository": "https://github.com/FreeCAD/Machines",
