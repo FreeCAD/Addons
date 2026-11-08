@@ -1203,6 +1203,16 @@
       "curated": true
     }
   ],
+  "PartDesignUpgrade": [
+    {
+      "repository": "https://github.com/cipawow-ship-it/PartDesignUpgrade",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/cipawow-ship-it/PartDesignUpgrade/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "pcb": [
     {
       "repository": "https://github.com/marmni/FreeCAD-PCB",
