@@ -317,6 +317,15 @@
       "curated": true
     }
   ],
+  "Code3D": [
+    {
+      "repository": "https://github.com/gwangcode/Code3D",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/gwangcode/Code3D/archive/refs/heads/main.zip",
+      "freecad_min": "0.21.0"
+    }
+  ],
   "CommandPanel": [
     {
       "repository": "https://github.com/triplus/CommandPanel",
