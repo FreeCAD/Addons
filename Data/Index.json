@@ -317,6 +317,16 @@
       "curated": true
     }
   ],
+  "ClaudeCodeWB": [
+    {
+      "repository": "https://github.com/jacquesh82/FreeCAD-ClaudeCode",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "freecad_min": "1.1.0",
+      "zip_url": "https://github.com/jacquesh82/FreeCAD-ClaudeCode/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "CommandPanel": [
     {
       "repository": "https://github.com/triplus/CommandPanel",
