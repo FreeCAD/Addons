@@ -49,7 +49,7 @@ jobs:
                 # https://github.com/marketplace/actions/json-schema-validate
 
             -   name : Validate Format
-                uses : dsanders11/json-schema-validate-action@f04ef3bca791388d2bd9ff3a50b27d1b2572158e # v2.1.0
+                uses : dsanders11/json-schema-validate-action@84d2b7a85aed7c0c3323b764e6f10bfa59d5c17b # v2.2.0
                 with :
 
                     all-errors : true
