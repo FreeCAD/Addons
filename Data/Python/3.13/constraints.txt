@@ -28,9 +28,9 @@ cadquery_vtk==9.3.1
 capytaine==3.0.0
 casadi==3.8.2
 cbor2==6.3.0
-certifi==2026.10.23
+certifi==2026.11.20
 cffi==2.1.1
-charset-normalizer==3.5.2
+charset-normalizer==3.5.3
 click==8.3.3
 cloudpickle==3.1.3
 comtypes==1.5.0
@@ -61,7 +61,7 @@ hyperlink==21.0.0
 idna==3.20
 ImageIO==2.38.2
 importlib_resources==7.1.0
-ipython==9.18.1
+ipython==9.19.1
 ipython_pygments_lexers==1.1.1
 jedi==0.20.1
 joblib==1.6.0
@@ -76,7 +76,7 @@ ladybug-geometry==1.35.10
 ladybug-radiance==0.2.13
 lazy-loader==0.6
 lib3mf==2.5.0
-liblathe==0.6.0
+liblathe==0.6.1
 llvmlite==0.50.0
 lxml==6.1.3
 Markdown==3.11.3
@@ -111,10 +111,10 @@ parso==0.8.7
 path==17.1.1
 pexpect==4.9.0
 pillow==13.0.0
-platformdirs==4.14.7
+platformdirs==4.14.8
 ply==3.11
 pooch==1.9.0
-posthog==8.0.2
+posthog==8.1.1
 prompt_toolkit==3.0.53
 propcache==0.5.4
 protobuf==5.29.6
@@ -144,7 +144,7 @@ python-dotenv==1.2.4
 pytz==2026.6
 pyvista==0.49.2
 pyvista-validation==0.2.2
-PyYAML==6.0.3
+PyYAML==6.0.4
 pyzmq==27.3.0
 QtPy==2.4.3
 QtRangeSlider==0.1.5
@@ -161,12 +161,12 @@ scikit-sparse==0.5.1
 scipy==1.18.1
 scooby==0.12.1
 scour==0.38.2
-sentry-sdk==2.75.0
+sentry-sdk==3.0.0
 shapely==2.2.0
 six==1.17.0
 sniffio==1.3.1
 sortedcontainers==2.4.0
-soupsieve==4.1.2
+soupsieve==4.1.3
 stack-data==0.6.3
 streamdeck==0.10.0
 svgelements==1.9.6
@@ -187,7 +187,7 @@ trame-vtk==2.11.17
 trame-vuetify==3.3.0
 triangle==20250106
 trianglesolver==1.2
-trimesh==5.2.1
+trimesh==5.2.2
 txaio==26.6.1
 typing-inspect==0.9.0
 typing_extensions==4.16.0
@@ -199,7 +199,7 @@ urllib3==2.8.0
 vedo==2026.6.3
 vermin==1.9.2
 vtk==9.6.2
-wcwidth==0.9.4
+wcwidth==0.9.5
 webcolors==24.8.0
 wrapt==2.5.2
 wslink==2.6.0
