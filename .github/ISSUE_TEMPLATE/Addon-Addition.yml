@@ -47,7 +47,7 @@ body:
 
         attributes :
 
-            description : 'Anything you want use to know before the review.'
+            description : 'Anything you want us to know before the review.'
             placeholder : 'My addon is based on an existing addon, ..'
             render : 'txt'
             label : '📑 𝗡𝗼𝘁𝗲𝘀'
